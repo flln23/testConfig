@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23424333-59d6-42ab-bd25-f337c01c4723">
+  <name>ТестоваяКонфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовая конфигурация</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="381f3fad-3064-4ddd-864d-9f1af5de69ab"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="96fa8628-6ddd-4367-a5e4-03ef1eb40c24"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="54a83c90-b0d2-414d-a481-435f913eb853"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ee06322b-bb94-491c-b670-d95560c27760"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8ed333b7-3f8a-4a97-b8a5-cfd358f1f261"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fff82817-051b-4ac9-be8c-9a33c371ff0c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7f3ae5f3-ea6f-43cd-8fc1-ff8ee9fe8d75"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="5ed54eb8-3b33-4c54-9a33-6c975be4cb90">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ОтображениеСообщенийКлиент</commonModules>
+  <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.ЧекиОПродажах</documents>
+  <enums>Enum.ВтороеПеречисление</enums>
+  <enums>Enum.ТипыТоваров</enums>
+</mdclass:Configuration>

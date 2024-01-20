@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce7f01be-4814-4e41-8b34-f4453d4fb800">
+  <producedTypes>
+    <refType typeId="660591b8-bb93-4e3c-b6f2-d42f39b30fee" valueTypeId="52df6acf-b8bf-4706-b04d-26bb5e466e35"/>
+    <listType typeId="1d40d3eb-0c56-42a0-ac7c-cfb82b004885" valueTypeId="44d105ef-c77e-42b6-9619-3779853f8c29"/>
+    <managerType typeId="611d2fe1-3e22-433d-b38a-9230db216b0e" valueTypeId="93e44340-f144-4d0d-a62a-5c18948b1911"/>
+  </producedTypes>
+  <name>ТипыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы товаров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eb67dfb5-ff5a-4814-8f56-c7034eb4ffcd">
+    <name>Штучный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штучный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50007e08-348c-4fe4-b7e4-ef229defa48e">
+    <name>Уникальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48323b2e-021c-49c9-881b-22849457f7dc">
+    <name>ЕщеОдноНовоеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еще одно новое значение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

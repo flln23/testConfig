@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35a38472-2cb3-42b9-8dca-f70f3ee11dde">
+  <producedTypes>
+    <objectType typeId="69c5c6c1-f147-4108-a914-078e894d9ec5" valueTypeId="77ebb45b-0773-4a6a-8113-b7006ca4f7c6"/>
+    <refType typeId="62a90a54-30ab-4d8c-bfea-19d33f9d80c2" valueTypeId="811fc2fc-294e-4918-9439-8ca010e3656e"/>
+    <selectionType typeId="c6007104-4edb-4b56-9012-9266062a8001" valueTypeId="080e5241-4129-4865-bdbd-0b2020130190"/>
+    <listType typeId="2931faef-95f6-4807-91fc-72c4955e5146" valueTypeId="70baf93c-5e19-4a7d-bbc6-2493beb84f09"/>
+    <managerType typeId="d0fa74ed-6550-4812-a705-e45a989197a3" valueTypeId="a22fa5c4-efec-4f86-b17c-730b06293d55"/>
+  </producedTypes>
+  <name>ЧекиОПродажах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чеки о продажах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЧекиОПродажах.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЧекиОПродажах.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="f120c731-11d3-43ff-8f53-5a12cd8b577d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
